@@ -1,0 +1,43 @@
+# ===============================
+# Environment variables (SECRETS)
+# ===============================
+.env
+.env.local
+.env.development
+.env.production
+
+# ===============================
+# Node.js dependencies
+# ===============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===============================
+# OS / Editor junk
+# ===============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ===============================
+# Temporary / backup files
+# ===============================
+*.log
+*.tmp
+*.swp
+*.bak
+
+# ===============================
+# Dummy / test folders
+# ===============================
+Z_Dummy/
+
+# ===============================
+# Build / cache (future-safe)
+# ===============================
+dist/
+build/
+.cache/
